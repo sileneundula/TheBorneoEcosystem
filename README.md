@@ -8,3 +8,5 @@ The Borneo Ecosystem is a new project that takes advantage of modern cryptograph
 * **Hash Function:** BLAKE2B
 
 * **Digital Signature:** ED25519, Dilithium
+
+* **Technology Used:** Verifiable Delay Functions (VDFs), Verifiable Random Functions (VRFs), Block Lattices
