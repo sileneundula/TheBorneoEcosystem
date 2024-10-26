@@ -10,6 +10,14 @@ It offers `account sidechains`, the **Account Sidechains (AccSid)** useful for o
 
 It provides interfaces to communicate with using **BorneoBridge (BB)** and **BorneoCrates (BorCrates)**. **BorneoBridge** is hard-built rules that must apply, while **BorneoCrates** is **ICD** (Interconnected-Design Interface) that can be defined through rules and structures. These definitions use `BorneoCrates Standard Library` and are defined in `BorneoCrates/..`
 
+--
+
+**Pivots** are extensively used to reduce storage size. A **PivotPoint** is any indepedent entity that forms its own `pivot`.
+
+--
+
+**BorWorkers** are used to do **tasks** that range from all types of different actions on the lattice. This can include pruning, validating, relaying, serving, initializing, and keeping the ecosystem running.
+
 # Future
 
 - Register-Based Virtual Machine
@@ -18,6 +26,7 @@ It provides interfaces to communicate with using **BorneoBridge (BB)** and **Bor
 
 * [0x00] General (Payment, Voting,
 * [0x01] Account Blocks
+* [0x02] Domain Block
 
 ## Cryptography Used:
 
