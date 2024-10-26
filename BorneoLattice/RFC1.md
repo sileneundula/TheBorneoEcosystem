@@ -1,6 +1,8 @@
 # BorneoLattice
 
-The BorneoLattice is a structure designed as a Directed Acrylic Graph (DAG), or more specifically, a Block Lattice, such as that used in nano, that uses the consensus mechanism of **Delegated Proof of Stake (DPOS)** and **Proof-of-Work (PoW)**. 
+The BorneoLattice is a structure designed as a Directed Acrylic Graph (DAG), or more specifically, a Block Lattice, such as that used in nano, that uses the consensus mechanism of **Delegated Proof of Stake (DPOS)** and **Proof-of-Work (PoW)**.
+
+It offers the `registar chain` which is a RFC5280 approach to **Certificate Authorties and Intermediaries** done on a block lattice to register addresses with the main chain. It requires PoW to register an address.
 
 It offers a `root chain`, the **Account Ledger Management Chain (ALMAC)** that is its own blockchain where only the user can sign. The root chain consists of data related to the address and initiating new chains. It also allows you to communicate directly with **GLCC**.
 
