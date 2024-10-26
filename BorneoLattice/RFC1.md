@@ -8,6 +8,8 @@ It offers a `general contract chain`, the **General Ledger Contract Chain (GLCC)
 
 It offers `account sidechains`, the **Account Sidechains (AccSid)** useful for other activities. This includes general, actions, contracts, blocks (a special one-use block), access, among others.
 
+It offers `IMX Setup Block Chain`, the **Immutable Setup Block Chain (IMXSetupBL)**, where all is stored for each chain and can be gathered quite easily. This id's each block and creates a setup of sidechains with immutable information.
+
 It provides interfaces to communicate with using **BorneoBridge (BB)** and **BorneoCrates (BorCrates)**. **BorneoBridge** is hard-built rules that must apply, while **BorneoCrates** is **ICD** (Interconnected-Design Interface) that can be defined through rules and structures. These definitions use `BorneoCrates Standard Library` and are defined in `BorneoCrates/..`
 
 --
@@ -17,6 +19,10 @@ It provides interfaces to communicate with using **BorneoBridge (BB)** and **Bor
 --
 
 **BorWorkers** are used to do **tasks** that range from all types of different actions on the lattice. This can include pruning, validating, relaying, serving, initializing, and keeping the ecosystem running.
+
+--
+
+**IMXSetup Blocks (IMXb)** are immutable-setup blocks.
 
 # Future
 
