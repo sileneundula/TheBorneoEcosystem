@@ -7,3 +7,7 @@ Svrless is a way of hosting content, applications in a decentralized or distribu
 ## SvrlessScript
 
 Introducing SvrlessScript, a scripting language for usage in serving webpages according to rules.
+
+## SvrlessVerification
+
+Run virtual machine, output hash.
