@@ -14,6 +14,10 @@ It offers a `general contract chain`, the **General Ledger Contract Chain (GLCC)
 
 It offers the `X59 Registar Chain` which is a RFC5280 approach to **Certificate Authorties and Intermediaries** done on a block lattice to register addresses with the main chain. It requires PoW to register an address. It is a subset of **GLCC**. This provides CAs to provide shorter chains of intermedieraries all registered under Certificate Authority using PoW.
 
+It offers the `Bank Registar for Staking (BRFS)`, a way of including staking modules with gains stored in the Bank, delegated by Bank Stakers. This include Bank Stakers on the main chains with interconnectedability, and other modules for different banks. It includes currencies supported by banks, backed by staking of main currency.
+
+It offers the `Database Registar`, for hosting content.
+
 ## ALMAC Account Sidechains (AccSidChains)
 
 It offers `account sidechains`, the **Account Sidechains (ALMACside)** are useful for other activities. This includes general, actions, contracts, blocks (a special one-use block), access, among others.
