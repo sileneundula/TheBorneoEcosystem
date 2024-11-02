@@ -29,3 +29,13 @@ Container Contents: <Container Contents>
 Hash-of-Contents (HoC): 643F5BBE916FF786BCE43264D02CE05B1B1513D953F41E2D5CB5D25319E9811C
 Digital-Signature (ED25519 of HoC): <insert digital signature>
 ```
+
+## ALMAC TYPES
+
+### 0x00: Payment Ledger
+
+The payment layer works as an easy-to-use basic payment ledger with send and receive blocks
+
+### 0x01: Voting Ledger
+
+A voting ledger for voting in delegates. You can also access delegates by sending a transaction to be a part of their DelegateSumatraChain.
