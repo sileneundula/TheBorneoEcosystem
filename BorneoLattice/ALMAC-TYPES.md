@@ -13,10 +13,17 @@ ALMAC types refer to the definitive type of an ALMAC chain. There exists a multi
 - Bridge
 - Registar
 - Governance
+  - Delegate
+  - DAO
+  - Central Authority
 - Organization
 - Pivot
 - Database
-- LamentSearch
+- Lament
+  - LamentSystem
+  - LamentTaggingSystem
+  - LamentIndex
+  - LamentPivot
 - PKI
 - Social
 - Bank
@@ -24,4 +31,8 @@ ALMAC types refer to the definitive type of an ALMAC chain. There exists a multi
 - Connector
 - Node
 - Slinky
+  - SrvlessLogic
+  - ServeStatic
 - Projects
+- PubRepo
+  - 
