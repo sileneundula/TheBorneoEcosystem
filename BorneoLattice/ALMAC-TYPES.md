@@ -35,6 +35,8 @@ ALMAC types refer to the definitive type of an ALMAC chain. There exists a multi
   - ServeStatic
 - Projects
 - PubRepo
+- Market
+- Shares
 
 ## Core (User)
 
