@@ -10,3 +10,7 @@
 ## What It Does
 
 It allows a general consensus point at which one can interact with others.
+
+## Storage
+
+All storage is kept by a DHT or in blocks.
